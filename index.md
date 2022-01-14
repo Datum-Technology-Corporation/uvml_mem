@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+# Home Page
 
-You can use the [editor on GitHub](https://github.com/Datum-Technology-Corporation/uvml_mem/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## [Get Latest Release](https://mooreio.com/packages/uvml_mem.tgz)
+### [View Documentation online](https://mooreio.com/packages/uvml_mem/dox_out/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+----------------
 
-### Markdown
+## About
+The [Moore.io](https://www.mooreio.com) UVM Memory Library is a pure UVM solution for digital design simulations.  This project consists of the library (`uvml_mem_pkg`), the self-testing UVM environment (`uvme_mem_st_pkg`) and the test bench (`uvmt_mem_st_pkg`).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Management
 
-# Header 1
-## Header 2
-### Header 3
+| **[Issues](https://github.com/Datum-Technology-Corporation/uvml_mem/issues)** | **[Discussions](https://github.com/Datum-Technology-Corporation/uvml_mem/discussions)** |
+| **[Sub-Projects](https://github.com/Datum-Technology-Corporation/uvml_mem/projects)** | **[Wiki](https://github.com/Datum-Technology-Corporation/uvml_mem/wiki)** |
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## Downloads
 
-**Bold** and _Italic_ and `Code` text
+| Latest Release (v1.0 Beta 0) | Stable (Weekly) | Stable (Nightly) |
+| --------------------- | ---------------- | --------------- |
+| [Source Code](https://mooreio.com/packages/uvml_mem.tgz) | Source Code (Coming Soon) | Source Code (Coming Soon) |
+| [Documentation](https://mooreio.com/packages/uvml_mem/dox_out/) | Documentation (Coming Soon) | Documentation (Coming Soon) |
 
-[Link](url) and ![Image](src)
-```
+> **[View All Releases](releases.md)**
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Datum-Technology-Corporation/uvml_mem/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Metrics
 
-### Support or Contact
+| Latest Release (v1.0 Beta 0) | Stable (Weekly) | Stable (Nightly) |
+| --------------------- | ---------------- | --------------- |
+| Functional Coverage Report (Coming Soon) | Functional Coverage Report (Coming Soon) | Functional Coverage Report (Coming Soon) |
+| [Release Regression Test Report](https://mooreio.com/packages/uvml_mem/sim/results.html) | Regression Test Report (Coming Soon) | Regression Test Report (Coming Soon) |
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+----------------
+
+
+## News
+### 2022/01/14 - Hello, World!
+The Moore.io Core Libraries are being brought online for the very first time. Watch this space in the near future!
