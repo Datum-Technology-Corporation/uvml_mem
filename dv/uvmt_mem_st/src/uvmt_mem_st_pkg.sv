@@ -16,12 +16,12 @@
 
 // Pre-processor macros
 `include "uvm_macros.svh"
-`include "uvml_macros.sv"
-`include "uvml_logs_macros.sv"
-`include "uvml_sb_macros.sv"
-`include "uvma_mem_macros.sv"
-`include "uvme_mem_st_macros.sv"
-`include "uvmt_mem_st_macros.sv"
+`include "uvml_macros.svh"
+`include "uvml_logs_macros.svh"
+`include "uvml_sb_macros.svh"
+`include "uvma_mem_macros.svh"
+`include "uvme_mem_st_macros.svh"
+`include "uvmt_mem_st_macros.svh"
 
 // Time units and precision for this test bench
 timeunit       1ns;
@@ -35,25 +35,25 @@ timeprecision  1ps;
  * Encapsulates all the types and test cases for self-testing Memory Modeling.
  */
 package uvmt_mem_st_pkg;
-   
+
    import uvm_pkg       ::*;
    import uvml_pkg      ::*;
    import uvml_logs_pkg ::*;
    import uvml_sb_pkg   ::*;
    import uvma_mem_pkg::*;
    import uvme_mem_st_pkg::*;
-   
+
    // Constants / Structs / Enums
    `include "uvmt_mem_st_tdefs.sv"
    `include "uvmt_mem_st_constants.sv"
-   
+
    // Base test
    `include "uvmt_mem_st_test_cfg.sv"
    `include "uvmt_mem_st_base_test.sv"
-   
+
    // TODO Add tests
    //      Ex: `include "uvmt_mem_st_sanity_test.sv"
-   
+
 endpackage : uvmt_mem_st_pkg
 
 

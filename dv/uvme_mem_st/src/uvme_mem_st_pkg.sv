@@ -16,11 +16,11 @@
 
 // Pre-processor macros
 `include "uvm_macros.svh"
-`include "uvml_macros.sv"
-`include "uvml_logs_macros.sv"
-`include "uvml_sb_macros.sv"
-`include "uvma_mem_macros.sv"
-`include "uvme_mem_st_macros.sv"
+`include "uvml_macros.svh"
+`include "uvml_logs_macros.svh"
+`include "uvml_sb_macros.svh"
+`include "uvma_mem_macros.svh"
+`include "uvme_mem_st_macros.svh"
 
 // Interface(s)
 
@@ -29,30 +29,30 @@
  * Encapsulates all the types needed for an UVM environment capable of self-testing the Memory Modeling.
  */
 package uvme_mem_st_pkg;
-   
+
    import uvm_pkg         ::*;
    import uvml_pkg        ::*;
    import uvml_logs_pkg   ::*;
    import uvml_sb_pkg     ::*;
    import uvma_mem_pkg::*;
-   
+
    // Constants / Structs / Enums
    `include "uvme_mem_st_tdefs.sv"
    `include "uvme_mem_st_constants.sv"
-   
+
    // Objects
    `include "uvme_mem_st_cfg.sv"
    `include "uvme_mem_st_cntxt.sv"
-   
+
    // Environment components
    `include "uvme_mem_st_cov_model.sv"
    `include "uvme_mem_st_prd.sv"
    `include "uvme_mem_st_vsqr.sv"
    `include "uvme_mem_st_env.sv"
-   
+
    // Sequences
    `include "uvme_mem_st_vseq_lib.sv"
-   
+
 endpackage : uvme_mem_st_pkg
 
 

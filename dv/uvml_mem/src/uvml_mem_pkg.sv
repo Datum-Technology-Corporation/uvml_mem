@@ -18,23 +18,23 @@
 
 // Pre-processor macros
 `include "uvm_macros.svh"
-`include "uvml_mem_macros.sv"
+`include "uvml_mem_macros.svh"
 
 
 /**
  * Encapsulates all the types needed for Memory base class library.
  */
 package uvml_mem_pkg;
-   
+
    import uvm_pkg::*;
-   
+
    // Constants / Structs / Enums
    `include "uvml_mem_tdefs.sv"
    `include "uvml_mem_constants.sv"
-  
+
    // Objects
    `include "uvml_mem_model.sv"
-   
+
 endpackage : uvml_mem_pkg
 
 
