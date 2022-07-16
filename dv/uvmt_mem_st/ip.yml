@@ -1,10 +1,10 @@
 ip:
-  name: "uvme_mem_st"
+  name: "uvmt_mem_st"
   version: "1.0.0 Beta 0"
-  full-name: "Moore.io Memory Modeling Library Self-Test UVM Environment"
+  full-name: "Moore.io Memory Modeling UVM Self-Test Bench"
   type: "DV"
-  sub-type: "UVM Environment"
-  sub-sub-type: "Agent Self-Testing"
+  sub-type: "UVM Test Bench"
+  sub-sub-type: "Library Self-Testing"
   description: >
     
   home-page: "https://datum-technology-corporation.github.io/uvml_mem/"
@@ -32,13 +32,18 @@ dependencies:
   - { name: "uvml_logs", version: "~1.0" }
   - { name: "uvml_sb", version: "~1.0" }
  # - { name: "uvml_mem", version: "^" }
+ # - { name: "uvme_mem_st", version: "^" }
 
 hdl-src:
-  directories: [".", "comps", "obj", "reg", "seq"]
+  top-constructs: ["uvmt_mem_st_tb", "uvml_sim_summary"]
+  directories: [".", "tb", "src/tests"]
+  test-paths: ["tests"]
+  test-name-template: "uvmt_mem_st_{{ name }}_test_c"
   flist:
-    metrics : "uvme_mem_st_pkg.flist"
-    riviera : "uvme_mem_st_pkg.flist"
-    questa  : "uvme_mem_st_pkg.flist"
-    vcs     : "uvme_mem_st_pkg.flist"
-    vivado  : "uvme_mem_st_pkg.flist.xsim"
-    xcelium : "uvme_mem_st_pkg.flist"
+    metrics : "uvmt_mem_st_pkg.flist"
+    riviera : "uvmt_mem_st_pkg.flist"
+    questa  : "uvmt_mem_st_pkg.flist"
+    vcs     : "uvmt_mem_st_pkg.flist"
+    vivado  : "uvmt_mem_st_pkg.flist.xsim"
+    xcelium : "uvmt_mem_st_pkg.flist"
+
